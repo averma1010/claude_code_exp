@@ -1,0 +1,25 @@
+[
+  {
+    "title": "The Godfather",
+    "year": 1972,
+    "imdbId": "tt0068646",
+    "status": "finished",
+    "type": "movie"
+  },
+  {
+    "title": "Breaking Bad",
+    "year": 2008,
+    "imdbId": "tt0903747",
+    "status": "watching",
+    "currentSeason": 3,
+    "currentEpisode": 5,
+    "type": "series"
+  },
+  {
+    "title": "Inception",
+    "year": 2010,
+    "imdbId": "tt1375666",
+    "status": "finished",
+    "type": "movie"
+  }
+]

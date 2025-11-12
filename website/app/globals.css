@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-ft-pink text-ft-text font-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+
+  a {
+    @apply text-ft-accent hover:underline;
+  }
+}
+
+@layer components {
+  .prose {
+    @apply text-ft-text;
+  }
+
+  .prose h1 {
+    @apply text-4xl font-bold mb-4 mt-8;
+  }
+
+  .prose h2 {
+    @apply text-3xl font-bold mb-3 mt-6;
+  }
+
+  .prose h3 {
+    @apply text-2xl font-bold mb-2 mt-4;
+  }
+
+  .prose p {
+    @apply mb-4 leading-relaxed text-lg;
+  }
+
+  .prose ul, .prose ol {
+    @apply mb-4 ml-6;
+  }
+
+  .prose li {
+    @apply mb-2;
+  }
+
+  .prose code {
+    @apply bg-ft-border px-1 py-0.5 rounded text-sm;
+  }
+
+  .prose pre {
+    @apply bg-ft-border p-4 rounded-lg overflow-x-auto mb-4;
+  }
+
+  .prose blockquote {
+    @apply border-l-4 border-ft-accent pl-4 italic my-4;
+  }
+}

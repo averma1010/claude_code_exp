@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "type": "image",
+    "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+    "title": "Mountain Landscape",
+    "date": "2024-11-01"
+  },
+  {
+    "id": "2",
+    "type": "image",
+    "url": "https://images.unsplash.com/photo-1469474968028-56623f02e42e",
+    "title": "Forest Path",
+    "date": "2024-10-28"
+  },
+  {
+    "id": "3",
+    "type": "image",
+    "url": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29",
+    "title": "Ocean Sunset",
+    "date": "2024-10-25"
+  }
+]
