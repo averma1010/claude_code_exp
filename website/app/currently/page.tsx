@@ -19,8 +19,8 @@ interface WatchingItem {
 }
 
 export default function CurrentlyPage() {
-  const reading = readingData as ReadingItem[];
-  const watching = watchingData as WatchingItem[];
+  const reading = (readingData as { items: ReadingItem[] }).items;
+  const watching = (watchingData as { items: WatchingItem[] }).items;
 
   return (
     <div className="py-8">

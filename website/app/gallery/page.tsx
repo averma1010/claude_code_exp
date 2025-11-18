@@ -14,7 +14,7 @@ interface GalleryItem {
 
 export default function GalleryPage() {
   const [selectedItem, setSelectedItem] = useState<GalleryItem | null>(null);
-  const gallery = galleryData as GalleryItem[];
+  const gallery = (galleryData as { items: GalleryItem[] }).items;
 
   return (
     <div className="py-8">

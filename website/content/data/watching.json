@@ -1,55 +1,57 @@
-[
-  {
-    "title": "Breaking Bad",
-    "year": 2008,
-    "imdbId": "tt0903747",
-    "status": "watching",
-    "currentSeason": 3,
-    "currentEpisode": 5,
-    "type": "series"
-  },
-  {
-    "title": "The Godfather",
-    "year": 1972,
-    "imdbId": "tt0068646",
-    "status": "finished",
-    "type": "movie"
-  },
-  {
-    "title": "Inception",
-    "year": 2010,
-    "imdbId": "tt1375666",
-    "status": "finished",
-    "type": "movie"
-  },
-  {
-    "title": "The Office",
-    "year": 2005,
-    "imdbId": "tt0386676",
-    "status": "watching",
-    "currentSeason": 5,
-    "currentEpisode": 12,
-    "type": "series"
-  },
-  {
-    "title": "Parasite",
-    "year": 2019,
-    "imdbId": "tt6751668",
-    "status": "finished",
-    "type": "movie"
-  },
-  {
-    "title": "The Dark Knight",
-    "year": 2008,
-    "imdbId": "tt0468569",
-    "status": "finished",
-    "type": "movie"
-  },
-  {
-    "title": "Interstellar",
-    "year": 2014,
-    "imdbId": "tt0816692",
-    "status": "finished",
-    "type": "movie"
-  }
-]
+{
+  "items": [
+    {
+      "title": "Breaking Bad",
+      "year": 2008,
+      "imdbId": "tt0903747",
+      "status": "watching",
+      "currentSeason": 3,
+      "currentEpisode": 5,
+      "type": "series"
+    },
+    {
+      "title": "The Godfather",
+      "year": 1972,
+      "imdbId": "tt0068646",
+      "status": "finished",
+      "type": "movie"
+    },
+    {
+      "title": "Inception",
+      "year": 2010,
+      "imdbId": "tt1375666",
+      "status": "finished",
+      "type": "movie"
+    },
+    {
+      "title": "The Office",
+      "year": 2005,
+      "imdbId": "tt0386676",
+      "status": "watching",
+      "currentSeason": 5,
+      "currentEpisode": 12,
+      "type": "series"
+    },
+    {
+      "title": "Parasite",
+      "year": 2019,
+      "imdbId": "tt6751668",
+      "status": "finished",
+      "type": "movie"
+    },
+    {
+      "title": "The Dark Knight",
+      "year": 2008,
+      "imdbId": "tt0468569",
+      "status": "finished",
+      "type": "movie"
+    },
+    {
+      "title": "Interstellar",
+      "year": 2014,
+      "imdbId": "tt0816692",
+      "status": "finished",
+      "type": "movie"
+    }
+  ]
+}

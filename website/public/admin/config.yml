@@ -1,0 +1,74 @@
+backend:
+  name: github
+  repo: averma1010/claude_code_exp # Change this to your GitHub repo (username/repo-name)
+  branch: main # Change this to your main/master branch if different
+
+# For local development - allows you to test without GitHub
+local_backend: true
+
+media_folder: "website/public/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  # Blog Posts Collection
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "website/content/posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    extension: "mdx"
+    format: "frontmatter"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD" }
+      - { label: "Excerpt", name: "excerpt", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # Reading List Collection
+  - name: "reading"
+    label: "Reading List"
+    label_singular: "Reading Item"
+    file: "website/content/data/reading.json"
+    fields:
+      - label: "Reading Items"
+        name: "items"
+        widget: "list"
+        fields:
+          - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Publication", name: "publication", widget: "string" }
+          - { label: "URL", name: "url", widget: "string" }
+
+  # Watching List Collection
+  - name: "watching"
+    label: "Watching List"
+    label_singular: "Watching Item"
+    file: "website/content/data/watching.json"
+    fields:
+      - label: "Watching Items"
+        name: "items"
+        widget: "list"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Year", name: "year", widget: "number", value_type: "int" }
+          - { label: "IMDB ID", name: "imdbId", widget: "string", hint: "e.g., tt0068646" }
+          - { label: "Type", name: "type", widget: "select", options: ["movie", "series"] }
+          - { label: "Status", name: "status", widget: "select", options: ["watching", "finished", "planned"] }
+          - { label: "Current Season", name: "currentSeason", widget: "number", value_type: "int", required: false, hint: "Only for series" }
+          - { label: "Current Episode", name: "currentEpisode", widget: "number", value_type: "int", required: false, hint: "Only for series" }
+
+  # Gallery Collection
+  - name: "gallery"
+    label: "Gallery"
+    label_singular: "Gallery Item"
+    file: "website/content/data/gallery.json"
+    fields:
+      - label: "Gallery Items"
+        name: "items"
+        widget: "list"
+        fields:
+          - { label: "ID", name: "id", widget: "string", hint: "Unique identifier" }
+          - { label: "Type", name: "type", widget: "select", options: ["image", "video"] }
+          - { label: "URL", name: "url", widget: "string", hint: "Image or video URL" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD" }
