@@ -6,6 +6,10 @@ const nextConfig = {
   experimental: {
     mdxRs: false,
   },
+  // Optimize for Cloudflare Pages deployment
+  images: {
+    unoptimized: true, // Required for Cloudflare Pages
+  },
 }
 
 const withMDX = createMDX({
