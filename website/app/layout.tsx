@@ -14,11 +14,24 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="min-h-screen">
+      <body className="min-h-screen flex flex-col">
         <Navigation />
-        <main className="max-w-4xl mx-auto px-6 py-8">
+        <main className="max-w-4xl mx-auto px-6 py-8 flex-grow">
           {children}
         </main>
+        <footer className="border-t border-gray-200 mt-auto">
+          <div className="max-w-4xl mx-auto px-6 py-6 text-center text-sm text-gray-600">
+            Built with{' '}
+            <a
+              href="https://www.anthropic.com/claude/code"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:text-blue-800 underline"
+            >
+              Claude Code
+            </a>
+          </div>
+        </footer>
       </body>
     </html>
   );
