@@ -21,5 +21,58 @@
     "imdbId": "tt1375666",
     "status": "finished",
     "type": "movie"
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "imdbId": "tt0111161",
+    "status": "finished",
+    "type": "movie"
+  },
+  {
+    "title": "The Dark Knight",
+    "year": 2008,
+    "imdbId": "tt0468569",
+    "status": "finished",
+    "type": "movie"
+  },
+  {
+    "title": "The Office",
+    "year": 2005,
+    "imdbId": "tt0386676",
+    "status": "watching",
+    "currentSeason": 5,
+    "currentEpisode": 12,
+    "type": "series"
+  },
+  {
+    "title": "Parasite",
+    "year": 2019,
+    "imdbId": "tt6751668",
+    "status": "finished",
+    "type": "movie"
+  },
+  {
+    "title": "Stranger Things",
+    "year": 2016,
+    "imdbId": "tt4574334",
+    "status": "finished",
+    "type": "series"
+  },
+  {
+    "title": "Interstellar",
+    "year": 2014,
+    "imdbId": "tt0816692",
+    "status": "finished",
+    "type": "movie"
+  },
+  {
+    "title": "The Crown",
+    "year": 2016,
+    "imdbId": "tt4786824",
+    "status": "watching",
+    "currentSeason": 2,
+    "currentEpisode": 8,
+    "type": "series"
   }
 ]

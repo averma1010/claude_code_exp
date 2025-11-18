@@ -31,7 +31,7 @@ export default function CurrentlyPage() {
         <h2 className="text-2xl font-bold mb-6 pb-2 border-b border-ft-border">
           📖 Reading
         </h2>
-        <div className="space-y-3">
+        <div className="max-h-96 overflow-y-auto pr-2 space-y-3">
           {reading.map((item, index) => (
             <div key={index} className="group">
               <span className="text-ft-text/60 text-sm">
@@ -79,7 +79,7 @@ export default function CurrentlyPage() {
         <h2 className="text-2xl font-bold mb-6 pb-2 border-b border-ft-border">
           🎬 Watching
         </h2>
-        <div className="space-y-4">
+        <div className="max-h-96 overflow-y-auto pr-2 space-y-4">
           {watching.map((item, index) => (
             <div key={index} className="flex items-start gap-4">
               <div className="flex-1">

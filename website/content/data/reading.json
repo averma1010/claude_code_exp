@@ -16,5 +16,47 @@
     "title": "Understanding React Server Components",
     "publication": "Vercel Blog",
     "url": "https://vercel.com/blog"
+  },
+  {
+    "date": "2024-11-05",
+    "title": "The State of CSS 2024",
+    "publication": "CSS-Tricks",
+    "url": "https://css-tricks.com"
+  },
+  {
+    "date": "2024-11-03",
+    "title": "Modern JavaScript Best Practices",
+    "publication": "JavaScript Weekly",
+    "url": "https://javascriptweekly.com"
+  },
+  {
+    "date": "2024-11-01",
+    "title": "Design Systems at Scale",
+    "publication": "A List Apart",
+    "url": "https://alistapart.com"
+  },
+  {
+    "date": "2024-10-28",
+    "title": "WebAssembly for Web Developers",
+    "publication": "Mozilla Hacks",
+    "url": "https://hacks.mozilla.org"
+  },
+  {
+    "date": "2024-10-25",
+    "title": "Advanced TypeScript Patterns",
+    "publication": "LogRocket Blog",
+    "url": "https://blog.logrocket.com"
+  },
+  {
+    "date": "2024-10-22",
+    "title": "Building Accessible Web Applications",
+    "publication": "Web.dev",
+    "url": "https://web.dev"
+  },
+  {
+    "date": "2024-10-20",
+    "title": "The Evolution of Frontend Tooling",
+    "publication": "Frontend Focus",
+    "url": "https://frontendfoc.us"
   }
 ]
