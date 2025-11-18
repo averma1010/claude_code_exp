@@ -14,12 +14,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="min-h-screen flex flex-col">
+      <body className="min-h-screen">
         <Navigation />
-        <main className="max-w-4xl mx-auto px-6 py-8 flex-grow">
+        <main className="max-w-4xl mx-auto px-6 py-8">
           {children}
         </main>
-        <footer className="border-t border-gray-200 mt-auto">
+        <footer className="border-t border-gray-200">
           <div className="max-w-4xl mx-auto px-6 py-6 text-center text-sm text-gray-600">
             Built with{' '}
             <a
