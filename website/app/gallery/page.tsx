@@ -30,7 +30,7 @@ export default function GalleryPage() {
               className="group cursor-pointer mb-6 break-inside-avoid"
               onClick={() => setSelectedItem(item)}
             >
-              <div className="bg-ft-border rounded-lg overflow-hidden mb-3">
+              <div className="bg-ft-border rounded-lg overflow-hidden">
                 {item.type === 'image' ? (
                   <img
                     src={item.url}
@@ -44,16 +44,6 @@ export default function GalleryPage() {
                     controls={false}
                   />
                 )}
-              </div>
-              <div>
-                <h3 className="font-medium">{item.title}</h3>
-                <p className="text-sm text-ft-text/60">
-                  {new Date(item.date).toLocaleDateString('en-US', {
-                    year: 'numeric',
-                    month: 'long',
-                    day: 'numeric'
-                  })}
-                </p>
               </div>
             </div>
           ))}
