@@ -37,5 +37,19 @@
     "imdbId": "tt6751668",
     "status": "finished",
     "type": "movie"
+  },
+  {
+    "title": "The Dark Knight",
+    "year": 2008,
+    "imdbId": "tt0468569",
+    "status": "finished",
+    "type": "movie"
+  },
+  {
+    "title": "Interstellar",
+    "year": 2014,
+    "imdbId": "tt0816692",
+    "status": "finished",
+    "type": "movie"
   }
 ]

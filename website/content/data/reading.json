@@ -28,5 +28,17 @@
     "title": "Modern JavaScript Best Practices",
     "publication": "JavaScript Weekly",
     "url": "https://javascriptweekly.com"
+  },
+  {
+    "date": "2024-11-01",
+    "title": "Design Systems at Scale",
+    "publication": "A List Apart",
+    "url": "https://alistapart.com"
+  },
+  {
+    "date": "2024-10-28",
+    "title": "WebAssembly for Web Developers",
+    "publication": "Mozilla Hacks",
+    "url": "https://hacks.mozilla.org"
   }
 ]
