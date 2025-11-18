@@ -23,24 +23,24 @@ export default function GalleryPage() {
       {gallery.length === 0 ? (
         <p className="text-lg text-ft-text/70">No photos or videos yet. Check back soon!</p>
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="columns-1 md:columns-2 lg:columns-3 gap-6">
           {gallery.map((item) => (
             <div
               key={item.id}
-              className="group cursor-pointer"
+              className="group cursor-pointer mb-6 break-inside-avoid"
               onClick={() => setSelectedItem(item)}
             >
-              <div className="aspect-square bg-ft-border rounded-lg overflow-hidden mb-3">
+              <div className="bg-ft-border rounded-lg overflow-hidden mb-3">
                 {item.type === 'image' ? (
                   <img
                     src={item.url}
                     alt={item.title}
-                    className="w-full h-full object-cover group-hover:opacity-90 transition-opacity"
+                    className="w-full h-auto object-cover group-hover:opacity-90 transition-opacity"
                   />
                 ) : (
                   <video
                     src={item.url}
-                    className="w-full h-full object-cover"
+                    className="w-full h-auto object-cover"
                     controls={false}
                   />
                 )}
