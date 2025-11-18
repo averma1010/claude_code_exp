@@ -29,7 +29,7 @@ export default function CurrentlyPage() {
       {/* Reading Section */}
       <section className="mb-16">
         <h2 className="text-2xl font-bold mb-6 pb-2 border-b border-ft-border">
-          📖 Reading
+          Reading
         </h2>
         <div className="max-h-64 overflow-y-auto pr-2 space-y-3">
           {reading.map((item, index) => (
@@ -59,7 +59,7 @@ export default function CurrentlyPage() {
       {/* Listening Section */}
       <section className="mb-16">
         <h2 className="text-2xl font-bold mb-6 pb-2 border-b border-ft-border">
-          🎵 Listening
+          Listening
         </h2>
         <div className="bg-ft-border/30 rounded-lg p-6">
           <p className="text-ft-text/70 mb-4">
@@ -77,7 +77,7 @@ export default function CurrentlyPage() {
       {/* Watching Section */}
       <section className="mb-16">
         <h2 className="text-2xl font-bold mb-6 pb-2 border-b border-ft-border">
-          🎬 Watching
+          Watching
         </h2>
         <div className="max-h-64 overflow-y-auto pr-2 space-y-4">
           {watching.map((item, index) => (
