@@ -3,8 +3,8 @@ import "./globals.css";
 import Navigation from "@/components/Navigation";
 
 export const metadata: Metadata = {
-  title: "Personal Website",
-  description: "My personal website - blog, gallery, and currently",
+  title: "Shanzhai",
+  description: "My personal website",
 };
 
 export default function RootLayout({
