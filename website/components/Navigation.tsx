@@ -15,7 +15,7 @@ export default function Navigation() {
       <div className="max-w-4xl mx-auto px-6 py-6">
         <div className="flex items-center justify-between">
           <h1 className="text-2xl font-bold">
-            <Link href="/blog">Your Name</Link>
+            <Link href="/blog">Shanzhai</Link>
           </h1>
 
           <div className="flex gap-8">
@@ -25,7 +25,7 @@ export default function Navigation() {
                 isActive('/blog') ? 'text-ft-accent font-semibold' : 'text-ft-text'
               }`}
             >
-              Blog
+              Thoughts
             </Link>
             <Link
               href="/gallery"
@@ -41,7 +41,7 @@ export default function Navigation() {
                 isActive('/currently') ? 'text-ft-accent font-semibold' : 'text-ft-text'
               }`}
             >
-              Currently
+              What I am reading/listening/watching 
             </Link>
           </div>
         </div>
