@@ -1,54 +1,232 @@
 [
   {
-    "title": "Breaking Bad",
-    "year": 2008,
-    "imdbId": "tt0903747",
-    "status": "watching",
-    "currentSeason": 3,
-    "currentEpisode": 5,
-    "type": "series"
-  },
-  {
-    "title": "The Godfather",
-    "year": 1972,
-    "imdbId": "tt0068646",
+    "title": "The Running Man",
+    "year": 2025,
+    "imdbId": "tt14107334",
     "status": "finished",
     "type": "movie"
   },
   {
-    "title": "Inception",
+    "title": "Die My Love",
+    "year": 2025,
+    "imdbId": "tt9362736",
+    "status": "finished",
+    "type": "movie"
+  },
+  {
+    "title": "Bugonia",
+    "year": 2025,
+    "imdbId": "tt12300742",
+    "status": "finished",
+    "type": "movie"
+  },
+  {
+    "title": "It Was Just an Accident",
+    "year": 2025,
+    "imdbId": "tt36491653",
+    "status": "finished",
+    "type": "movie"
+  },
+  {
+    "title": "The Mastermind",
+    "year": 2025,
+    "imdbId": "tt33455099",
+    "status": "finished",
+    "type": "movie"
+  },
+  {
+    "title": "One Battle After Another",
+    "year": 2025,
+    "imdbId": "tt30144839",
+    "status": "finished",
+    "type": "movie"
+  },
+  {
+    "title": "The Long Walk",
+    "year": 2025,
+    "imdbId": "tt10374610",
+    "status": "finished",
+    "type": "movie"
+  },
+  {
+    "title": "Jaws: 50th Anniversary",
+    "year": 1975,
+    "imdbId": "tt0073195",
+    "status": "finished",
+    "type": "movie"
+  },
+  {
+    "title": "The Roses",
+    "year": 2025,
+    "imdbId": "tt31973693",
+    "status": "finished",
+    "type": "movie"
+  },
+  {
+    "title": "Shin Godzilla 4k ORTHOchromatic",
+    "year": 2016,
+    "imdbId": "tt4262980",
+    "status": "finished",
+    "type": "movie"
+  },
+  {
+    "title": "Caught Stealing",
+    "year": 2025,
+    "imdbId": "tt1493274",
+    "status": "finished",
+    "type": "movie"
+  },
+  {
+    "title": "Relay",
+    "year": 2024,
+    "imdbId": "tt11539996",
+    "status": "finished",
+    "type": "movie"
+  },
+  {
+    "title": "Black Swan",
     "year": 2010,
-    "imdbId": "tt1375666",
+    "imdbId": "tt0947798",
     "status": "finished",
     "type": "movie"
   },
   {
-    "title": "The Office",
-    "year": 2005,
-    "imdbId": "tt0386676",
-    "status": "watching",
-    "currentSeason": 5,
-    "currentEpisode": 12,
-    "type": "series"
-  },
-  {
-    "title": "Parasite",
-    "year": 2019,
-    "imdbId": "tt6751668",
+    "title": "Cloud",
+    "year": 2024,
+    "imdbId": "tt32828123",
     "status": "finished",
     "type": "movie"
   },
   {
-    "title": "The Dark Knight",
-    "year": 2008,
-    "imdbId": "tt0468569",
+    "title": "Weapons",
+    "year": 2025,
+    "imdbId": "tt26581740",
     "status": "finished",
     "type": "movie"
   },
   {
-    "title": "Interstellar",
-    "year": 2014,
-    "imdbId": "tt0816692",
+    "title": "Shin Godzilla 4K",
+    "year": 2016,
+    "imdbId": "tt4262980",
+    "status": "finished",
+    "type": "movie"
+  },
+  {
+    "title": "Eddington",
+    "year": 2025,
+    "imdbId": "tt31176520",
+    "status": "finished",
+    "type": "movie"
+  },
+  {
+    "title": "F1: The Movie",
+    "year": 2025,
+    "imdbId": "tt16311594",
+    "status": "finished",
+    "type": "movie"
+  },
+  {
+    "title": "28 Years Later",
+    "year": 2025,
+    "imdbId": "tt10548174",
+    "status": "finished",
+    "type": "movie"
+  },
+  {
+    "title": "Materialists",
+    "year": 2025,
+    "imdbId": "tt30253473",
+    "status": "finished",
+    "type": "movie"
+  },
+  {
+    "title": "The Phoenician Scheme",
+    "year": 2025,
+    "imdbId": "tt30840798",
+    "status": "finished",
+    "type": "movie"
+  },
+  {
+    "title": "Ballerina",
+    "year": 2024,
+    "imdbId": "tt7181546",
+    "status": "finished",
+    "type": "movie"
+  },
+  {
+    "title": "Friendship",
+    "year": 2024,
+    "imdbId": "tt30505698",
+    "status": "finished",
+    "type": "movie"
+  },
+  {
+    "title": "The Surfer",
+    "year": 2024,
+    "imdbId": "tt27813235",
+    "status": "finished",
+    "type": "movie"
+  },
+  {
+    "title": "Sinners",
+    "year": 2025,
+    "imdbId": "tt31193180",
+    "status": "finished",
+    "type": "movie"
+  },
+  {
+    "title": "Sacramento",
+    "year": 2024,
+    "imdbId": "tt13491834",
+    "status": "finished",
+    "type": "movie"
+  },
+  {
+    "title": "Freaky Tales",
+    "year": 2024,
+    "imdbId": "tt21942598",
+    "status": "finished",
+    "type": "movie"
+  },
+  {
+    "title": "Novacine",
+    "year": 2025,
+    "imdbId": "tt29603959",
+    "status": "finished",
+    "type": "movie"
+  },
+  {
+    "title": "Black Bag",
+    "year": 2025,
+    "imdbId": "tt30988739",
+    "status": "finished",
+    "type": "movie"
+  },
+  {
+    "title": "Mickey 17",
+    "year": 2025,
+    "imdbId": "tt12299608",
+    "status": "finished",
+    "type": "movie"
+  },
+  {
+    "title": "Anora",
+    "year": 2024,
+    "imdbId": "tt28607951",
+    "status": "finished",
+    "type": "movie"
+  },
+  {
+    "title": "Companion",
+    "year": 2025,
+    "imdbId": "tt26584495",
+    "status": "finished",
+    "type": "movie"
+  },
+  {
+    "title": "The Brutalist",
+    "year": 2024,
+    "imdbId": "tt8999762",
     "status": "finished",
     "type": "movie"
   }
