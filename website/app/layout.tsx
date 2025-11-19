@@ -16,6 +16,11 @@ export default function RootLayout({
     <html lang="en">
       <body className="min-h-screen">
         <Navigation />
+        <div className="bg-yellow-50 border-b border-yellow-200">
+          <div className="max-w-4xl mx-auto px-6 py-2 text-center text-sm text-yellow-800">
+            ⚠️ This site is currently under construction
+          </div>
+        </div>
         <main className="max-w-4xl mx-auto px-6 py-8">
           {children}
         </main>
