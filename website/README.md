@@ -32,6 +32,22 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) to view the site.
 
+### Environment Variables
+
+Create a `.env.local` file in the root directory with:
+
+```env
+# OMDb API (for movie data in watching section)
+OMDB_API_KEY=your_omdb_api_key
+
+# Cloudinary (for gallery images)
+NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=your_cloud_name
+NEXT_PUBLIC_CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_secret
+```
+
+**Get OMDb API Key**: Visit [OMDbAPI.com](http://www.omdbapi.com/apikey.aspx) to get a free API key for movie data.
+
 ### Build
 
 ```bash
@@ -57,30 +73,31 @@ Your full post content here in Markdown...
 
 ### Adding Reading Links
 
-Edit `/content/data/reading.json`:
+Edit `/content/data/reading.json` - just add URLs:
 
 ```json
-{
-  "date": "2024-11-12",
-  "title": "Article Title",
-  "publication": "Publication Name",
-  "url": "https://..."
-}
+[
+  "https://css-tricks.com/article-title/",
+  "https://www.smashingmagazine.com/2024/11/article/",
+  "https://vercel.com/blog/post-title"
+]
 ```
+
+The system will automatically fetch the article title, publication name, and date.
 
 ### Adding Movies/Shows
 
-Edit `/content/data/watching.json`:
+Edit `/content/data/watching.json` - just add IMDB IDs:
 
 ```json
-{
-  "title": "Movie Title",
-  "year": 2024,
-  "imdbId": "tt1234567",
-  "status": "finished",
-  "type": "movie"
-}
+[
+  "tt1234567",
+  "tt2345678",
+  "tt3456789"
+]
 ```
+
+To find IMDB IDs: Go to any movie's IMDB page, the ID is in the URL (e.g., `imdb.com/title/tt1234567/`)
 
 ### Adding Gallery Items
 

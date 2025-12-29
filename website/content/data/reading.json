@@ -1,44 +1,10 @@
 [
-  {
-    "date": "2024-11-12",
-    "title": "How to Build a Personal Website",
-    "publication": "CSS Tricks",
-    "url": "https://css-tricks.com"
-  },
-  {
-    "date": "2024-11-10",
-    "title": "The Future of Web Development",
-    "publication": "Smashing Magazine",
-    "url": "https://www.smashingmagazine.com"
-  },
-  {
-    "date": "2024-11-08",
-    "title": "Understanding React Server Components",
-    "publication": "Vercel Blog",
-    "url": "https://vercel.com/blog"
-  },
-  {
-    "date": "2024-11-05",
-    "title": "The State of CSS 2024",
-    "publication": "CSS-Tricks",
-    "url": "https://css-tricks.com"
-  },
-  {
-    "date": "2024-11-03",
-    "title": "Modern JavaScript Best Practices",
-    "publication": "JavaScript Weekly",
-    "url": "https://javascriptweekly.com"
-  },
-  {
-    "date": "2024-11-01",
-    "title": "Design Systems at Scale",
-    "publication": "A List Apart",
-    "url": "https://alistapart.com"
-  },
-  {
-    "date": "2024-10-28",
-    "title": "WebAssembly for Web Developers",
-    "publication": "Mozilla Hacks",
-    "url": "https://hacks.mozilla.org"
-  }
+  "https://www.lrb.co.uk/the-paper/v47/n21",
+  "https://www.lrb.co.uk/the-paper/v47/n20",
+  "https://www.lrb.co.uk/the-paper/v47/n19",
+  "https://www.lrb.co.uk/the-paper/v47/n18",
+  "https://www.lrb.co.uk/the-paper/v47/n17",
+  "https://www.lrb.co.uk/the-paper/v47/n16",
+  "https://www.goodreads.com/book/show/30206787-prison-worlds"
+
 ]
