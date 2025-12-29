@@ -124,9 +124,15 @@ export default function CurrentlyPage() {
                         alt={article.title}
                         className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                         onError={(e) => {
-                          e.currentTarget.style.display = 'none';
-                          e.currentTarget.nextElementSibling.style.display = 'flex';
+                          const img = e.currentTarget;
+                          img.style.display = 'none';
+
+                          const fallback = img.nextElementSibling as HTMLElement | null;
+                          if (fallback) {
+                            fallback.style.display = 'flex';
+                          }
                         }}
+
                       />
                     ) : null}
                     <div 
