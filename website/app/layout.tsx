@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import "katex/dist/katex.min.css";
 import Navigation from "@/components/Navigation";
 
 export const metadata: Metadata = {
@@ -19,7 +20,7 @@ export default function RootLayout({
         <div className="bg-yellow-50 border-b border-yellow-200">
           
         </div>
-        <main className="max-w-4xl mx-auto px-6 py-8">
+        <main>
           {children}
         </main>
         <footer className="border-t border-gray-200">

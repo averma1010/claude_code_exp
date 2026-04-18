@@ -10,6 +10,8 @@ export default function Navigation() {
     return pathname.startsWith(path);
   };
 
+  if (pathname.startsWith('/blog/')) return null;
+
   return (
     <nav className="border-b border-ft-border bg-ft-pink">
       <div className="max-w-4xl mx-auto px-6 py-6">

@@ -38,7 +38,7 @@ export default function CurrentlyPage() {
   const rightTracks = topTracks.slice(3, 5);
 
   return (
-    <div className="py-8">
+    <div className="max-w-4xl mx-auto px-6 py-8">
       <h1 className="text-4xl font-bold mb-12">Currently</h1>
 
       {/* Reading Section */}

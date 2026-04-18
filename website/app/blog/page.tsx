@@ -1,31 +1,26 @@
 import { getAllPosts } from '@/lib/posts';
-import ExpandablePost from '@/components/ExpandablePost';
-import ReactMarkdown from 'react-markdown';
-import remarkGfm from 'remark-gfm';
+import Link from 'next/link';
 
 export default function BlogPage() {
   const posts = getAllPosts();
 
   return (
-    <div className="py-8">
+    <div className="max-w-4xl mx-auto px-6 py-8">
       <h1 className="text-4xl font-bold mb-12">Blog</h1>
 
       {posts.length === 0 ? (
         <p className="text-lg text-ft-text/70">No posts yet. Check back soon!</p>
       ) : (
-        <div>
+        <div className="flex flex-col divide-y divide-ft-border">
           {posts.map((post) => (
-            <ExpandablePost
+            <Link
               key={post.slug}
-              title={post.title}
-              date={post.date}
-              excerpt={post.excerpt}
-              content={
-                <ReactMarkdown remarkPlugins={[remarkGfm]}>
-                  {post.content}
-                </ReactMarkdown>
-              }
-            />
+              href={`/blog/${post.slug}`}
+              className="flex items-baseline justify-between py-4 group hover:text-ft-accent transition-colors"
+            >
+              <span className="text-lg font-medium group-hover:underline">{post.title}</span>
+              <time className="text-sm text-ft-text/50 shrink-0 ml-8">{post.date}</time>
+            </Link>
           ))}
         </div>
       )}
