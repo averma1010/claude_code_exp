@@ -35,7 +35,7 @@ export default function Navigation() {
                 isActive('/currently') ? 'text-ft-accent font-semibold' : 'text-ft-text'
               }`}
             >
-              What I am reading/listening/watching 
+              Lately
             </Link>
           </div>
         </div>
