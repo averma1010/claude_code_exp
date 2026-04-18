@@ -1,0 +1,382 @@
+[
+  {
+    "title": "Marty Supreme",
+    "year": "2025",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZTRhYjI1MTItMWYwMi00MjY5LWI1OTktMzQwNzA3MWJlN2QyXkEyXkFqcGc@._V1_QL75_UY562_CR35,0,380,562_.jpg",
+    "imdbId": "tt32916440",
+    "plot": "Marty Mauser, a young man with a dream no one respects, goes to hell and back in pursuit of greatness.",
+    "director": "Josh Safdie",
+    "runtime": "149 min",
+    "genre": "Drama, Sport"
+  },
+  {
+    "title": "No Other Choice",
+    "year": "2026",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjg3NzY0N2ItZGFlMy00NzAzLTk2NjItMDk2YTU3ZWU0MDA1XkEyXkFqcGc@._V1_QL75_UY562_CR7,0,380,562_.jpg",
+    "imdbId": "tt1527793",
+    "plot": "After being fired, a man devises a unique plan to secure a new job: eliminate his competition.",
+    "director": "Park Chan-wook",
+    "runtime": "139 min",
+    "genre": "Comedy, Crime, Drama"
+  },
+  {
+    "title": "The Secret Agent",
+    "year": "2025",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNDlkMzNhYzgtNTk1Yi00M2I1LTlkOTMtY2RmZGU3YzVmMzE2XkEyXkFqcGc@._V1_SX300.jpg",
+    "imdbId": "tt27847051",
+    "plot": "In 1977, a technology expert flees from a mysterious past and returns to his hometown of Recife in search of peace. He soon realizes that the city is far from being the refuge he seeks.",
+    "director": "Kleber Mendonça Filho",
+    "runtime": "161 min",
+    "genre": "Crime, Drama, Mystery"
+  },
+  {
+    "title": "Hamnet",
+    "year": "2025",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMDQ5ZmY0OWYtOTYzZi00Mzg5LWE3N2EtMjYwZTAzZmJhYjkyXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+    "imdbId": "tt14905854",
+    "plot": "In late 16th-century England, Agnes, a healer sensitive to the world around her, builds a home with William, a local tutor and aspiring playwright. As their lives fracture, they are tested by distance, silence, and grief.",
+    "director": "Chloé Zhao",
+    "runtime": "125 min",
+    "genre": "Biography, Drama, History"
+  },
+  {
+    "title": "Rental Family",
+    "year": "2025",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMzFiNTViOTQtOTUxNi00ODczLWI0MTgtNDE1ZWU5YmIzMjY2XkEyXkFqcGc@._V1_QL75_UX380_CR0,3,380,562_.jpg",
+    "imdbId": "tt14142060",
+    "plot": "An American actor in Tokyo struggling to find purpose lands an unusual gig: working for a Japanese \"rental family\" agency, playing stand-in roles for strangers. He rediscovers purpose, belonging, and the beauty of human connection.",
+    "director": "Hikari",
+    "runtime": "109 min",
+    "genre": "Comedy, Drama"
+  },
+  {
+    "title": "Sentimental Value",
+    "year": "2025",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNTMwMTk0Y2QtY2VhNy00OGYwLThkMjMtZjkwMGI3MTJiMjAyXkEyXkFqcGc@._V1_QL75_UY562_CR2,0,380,562_.jpg",
+    "imdbId": "tt27714581",
+    "plot": "An intimate exploration of family, memories, and the reconciliatory power of art.",
+    "director": "Joachim Trier",
+    "runtime": "133 min",
+    "genre": "Drama"
+  },
+  {
+    "title": "The Running Man",
+    "year": "2025",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTk5NjU4OTAtNTEyMS00ZjBiLTg0ZjMtOGJiMGJhNjQ3MzYxXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+    "imdbId": "tt14107334",
+    "plot": "A man joins a game show in which contestants, allowed to flee anywhere in the world, are pursued by \"hunters\" hired to kill them.",
+    "director": "Edgar Wright",
+    "runtime": "133 min",
+    "genre": "Action, Adventure, Sci-Fi"
+  },
+  {
+    "title": "Die My Love",
+    "year": "2025",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYjc5OWZlZmYtMTg3Yy00YzFmLTg0YTgtNjVjN2M2ZWJjOWM1XkEyXkFqcGc@._V1_SX300.jpg",
+    "imdbId": "tt9362736",
+    "plot": "Grace, a writer and young mother, is slowly slipping into madness. Locked away in an old house in and around Montana, we see her acting increasingly agitated and erratic, leaving her companion, Jackson, increasingly worried and he...",
+    "director": "Lynne Ramsay",
+    "runtime": "119 min",
+    "genre": "Drama, Thriller"
+  },
+  {
+    "title": "Bugonia",
+    "year": "2025",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNzIzNWQxMjEtZmQ3MS00OTk2LWFlZjktZDUyYWRkM2M3NWVlXkEyXkFqcGc@._V1_QL75_UY562_CR7,0,380,562_.jpg",
+    "imdbId": "tt12300742",
+    "plot": "Two conspiracy-obsessed young men kidnap the high-powered CEO of a major company, convinced that she is an alien intent on destroying planet Earth.",
+    "director": "Yorgos Lanthimos",
+    "runtime": "118 min",
+    "genre": "Comedy, Crime, Sci-Fi"
+  },
+  {
+    "title": "It Was Just an Accident",
+    "year": "2025",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMWJkZmZlNjUtM2Q1OC00MmNjLWFkOWEtNjRhN2FkM2ZlMjI3XkEyXkFqcGc@._V1_SX300.jpg",
+    "imdbId": "tt36491653",
+    "plot": "An unassuming mechanic is reminded of his time in an Iranian prison when he encounters a man he suspects to be his sadistic jailhouse captor. Panicked, he rounds up a few of his fellow ex-prisoners to confirm the man's identity.",
+    "director": "Jafar Panahi",
+    "runtime": "103 min",
+    "genre": "Crime, Drama, Mystery"
+  },
+  {
+    "title": "The Mastermind",
+    "year": "2025",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYmEzYzMwZDUtMjdiYi00YmRlLWJiNjYtYzY2N2E3ZWZjOTcxXkEyXkFqcGc@._V1_SX300.jpg",
+    "imdbId": "tt33455099",
+    "plot": "In 1970, failed architect James Blaine Mooney and cohorts wander into a museum in broad daylight and steal four paintings. When holding onto the art proves more difficult than stealing them, Mooney is relegated to a life on the run.",
+    "director": "Kelly Reichardt",
+    "runtime": "110 min",
+    "genre": "Crime"
+  },
+  {
+    "title": "One Battle After Another",
+    "year": "2025",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMzBkZmQ0NjMtNTZlMy00ZjdlLTg5ODUtYWFlNGM0YzE3MTg0XkEyXkFqcGc@._V1_QL75_UY562_CR35,0,380,562_.jpg",
+    "imdbId": "tt30144839",
+    "plot": "When their enemy resurfaces after 16 years, a group of ex-revolutionaries reunite to rescue the daughter of one of their own.",
+    "director": "Paul Thomas Anderson",
+    "runtime": "161 min",
+    "genre": "Action, Crime, Drama"
+  },
+  {
+    "title": "The Long Walk",
+    "year": "2025",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNmE4YmIxNWQtMzJhMy00NDI5LWFmYjEtMGYyMmFhNzdjODVmXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+    "imdbId": "tt10374610",
+    "plot": "A group of teenage boys compete in an annual contest known as \"The Long Walk,\" in which they must maintain a certain walking speed or get shot.",
+    "director": "Francis Lawrence",
+    "runtime": "108 min",
+    "genre": "Horror, Thriller"
+  },
+  {
+    "title": "Jaws",
+    "year": "1975",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYjViNDQzNmUtYzkxZi00NTk5LTljMmItYjJlZmZkODIxNjU1XkEyXkFqcGc@._V1_SX300.jpg",
+    "imdbId": "tt0073195",
+    "plot": "When a massive killer shark unleashes chaos on a beach community off Long Island, it's up to the local police chief, a marine biologist, and an old seafarer to hunt the beast down.",
+    "director": "Steven Spielberg",
+    "runtime": "124 min",
+    "genre": "Adventure, Horror, Thriller"
+  },
+  {
+    "title": "The Roses",
+    "year": "2025",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYzliNTEyYjEtNGE3Mi00ZDIzLTg1NzYtZDBhNTQ5ZDVkMmM3XkEyXkFqcGc@._V1_SX300.jpg",
+    "imdbId": "tt31973693",
+    "plot": "A tinderbox of competition and resentments underneath the façade of a picture-perfect couple is ignited when the husband's professional dreams come crashing down.",
+    "director": "Jay Roach",
+    "runtime": "105 min",
+    "genre": "Comedy"
+  },
+  {
+    "title": "Shin Godzilla",
+    "year": "2016",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNjg5ODA1NzQtZmNmNy00MmFhLTk1YjUtYTM2NDNmNjY4ODA1XkEyXkFqcGc@._V1_SX300.jpg",
+    "imdbId": "tt4262980",
+    "plot": "Something has surfaced in Tokyo Bay. As the Prime Minister of Japan pleads with the public to remain calm, a horrific creature of tremendous size makes landfall in the city, leaving death and destruction in its wake. Then it evolves.",
+    "director": "Shinji Higuchi, Hideaki Anno",
+    "runtime": "120 min",
+    "genre": "Action, Drama, Horror"
+  },
+  {
+    "title": "Caught Stealing",
+    "year": "2025",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYTk0YTIyYmMtMTJjOC00NmNiLTkxMTktYTU0ZDFhNjJlMTJiXkEyXkFqcGc@._V1_QL75_UY562_CR35,0,380,562_.jpg",
+    "imdbId": "tt1493274",
+    "plot": "When his neighbor asks him to take care of his cat, a former baseball prodigy now working as a bartender finds himself in the middle of gangsters without knowing why. He must use all his cunning to survive and understand what is h...",
+    "director": "Darren Aronofsky",
+    "runtime": "107 min",
+    "genre": "Action, Comedy, Crime"
+  },
+  {
+    "title": "Relay",
+    "year": "2024",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYzFhMjljODMtYTY3MS00NmFiLWEzOTAtNTczZjQ1NGMwMjE4XkEyXkFqcGc@._V1_SX300.jpg",
+    "imdbId": "tt11539996",
+    "plot": "A broker of lucrative payoffs between corrupt corporations and the individuals who threaten them breaks his own rules when a new client seeks his protection to stay alive.",
+    "director": "David Mackenzie",
+    "runtime": "112 min",
+    "genre": "Action, Drama, Thriller"
+  },
+  {
+    "title": "Black Swan",
+    "year": "2010",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNzY2NzI4OTE5MF5BMl5BanBnXkFtZTcwMjMyNDY4Mw@@._V1_SX300.jpg",
+    "imdbId": "tt0947798",
+    "plot": "Nina is a talented but unstable ballerina on the verge of stardom. Pushed to the breaking point by her artistic director and a seductive rival, Nina's grip on reality slips, plunging her into a waking nightmare.",
+    "director": "Darren Aronofsky",
+    "runtime": "108 min",
+    "genre": "Drama, Thriller"
+  },
+  {
+    "title": "Cloud",
+    "year": "2024",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYTE5ZjM5MWQtMjU0MS00YzEzLTg5YTQtYmVjZWQ1Mzc0NTc3XkEyXkFqcGc@._V1_SX300.jpg",
+    "imdbId": "tt32828123",
+    "plot": "Yoshii, a young man who resells goods online, finds himself at the center of a series of mysterious events that put his life at risk.",
+    "director": "Kiyoshi Kurosawa",
+    "runtime": "124 min",
+    "genre": "Action, Crime, Drama"
+  },
+  {
+    "title": "Weapons",
+    "year": "2025",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNTBhNWJjZWItYzY3NS00M2NkLThmOWYtYTlmNzBmN2UxZWFjXkEyXkFqcGc@._V1_QL75_UY562_CR35,0,380,562_.jpg",
+    "imdbId": "tt26581740",
+    "plot": "When all but one child from the same class mysteriously vanish on the same night at exactly the same time, a community is left questioning who or what is behind their disappearance.",
+    "director": "Zach Cregger",
+    "runtime": "128 min",
+    "genre": "Horror, Mystery"
+  },
+  {
+    "title": "Eddington",
+    "year": "2025",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNmM0Yzc1ZjAtZTg4My00NDI3LWEwMzAtY2ZkNzMxMWMwOTFlXkEyXkFqcGc@._V1_SX300.jpg",
+    "imdbId": "tt31176520",
+    "plot": "In May of 2020, a standoff between a small-town sheriff and mayor sparks a powder keg as neighbor is pitted against neighbor in Eddington, New Mexico.",
+    "director": "Ari Aster",
+    "runtime": "148 min",
+    "genre": "Comedy, Drama, Western"
+  },
+  {
+    "title": "F1: The Movie",
+    "year": "2025",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNGI0MDI4NjEtOWU3ZS00ODQyLWFhYTgtNGYxM2ZkM2Q2YjE3XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+    "imdbId": "tt16311594",
+    "plot": "A Formula One driver comes out of retirement to mentor and team up with a younger driver.",
+    "director": "Joseph Kosinski",
+    "runtime": "155 min",
+    "genre": "Action, Drama, Sport"
+  },
+  {
+    "title": "28 Years Later",
+    "year": "2025",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNjgwYTI0YjctMWYzNS00MmI1LWI5YTctNmE1YjBkNDFlNWMxXkEyXkFqcGc@._V1_SX300.jpg",
+    "imdbId": "tt10548174",
+    "plot": "A group of survivors of the rage virus live on a small island. When one of the group leaves the island on a mission into the mainland, he discovers secrets, wonders, and horrors that have mutated not only the infected but other su...",
+    "director": "Danny Boyle",
+    "runtime": "115 min",
+    "genre": "Horror, Sci-Fi, Thriller"
+  },
+  {
+    "title": "Materialists",
+    "year": "2025",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNmQxMTI1YmEtOGY3Yi00NzVlLWEzMjAtYTI1NWZkNDFiMDg1XkEyXkFqcGc@._V1_QL75_UX380_CR0,15,380,562_.jpg",
+    "imdbId": "tt30253473",
+    "plot": "An ambitious young New York City matchmaker finds herself torn between the perfect match and her imperfect ex.",
+    "director": "Celine Song",
+    "runtime": "116 min",
+    "genre": "Comedy, Drama, Romance"
+  },
+  {
+    "title": "The Phoenician Scheme",
+    "year": "2025",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNTJmODQzYmItNTZlMy00Mjg0LTk1NjctYjM4ZGI0NTM3ZTVjXkEyXkFqcGc@._V1_SX300.jpg",
+    "imdbId": "tt30840798",
+    "plot": "Wealthy businessman Zsa-zsa Korda appoints his only daughter, a nun, as sole heir to his estate. As Korda embarks on a new enterprise, they soon become the target of scheming tycoons, foreign terrorists and determined assassins.",
+    "director": "Wes Anderson",
+    "runtime": "101 min",
+    "genre": "Action, Comedy, Crime"
+  },
+  {
+    "title": "Ballerina",
+    "year": "2025",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNzdhZmY2OTQtYWI4OC00ZThkLTlhZjAtNzE2YzRjM2Q5YjJlXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+    "imdbId": "tt7181546",
+    "plot": "An assassin trained in the traditions of the Ruska Roma organization sets out to seek revenge after her father's death.",
+    "director": "Len Wiseman",
+    "runtime": "124 min",
+    "genre": "Action, Thriller"
+  },
+  {
+    "title": "Friendship",
+    "year": "2024",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMzljN2M1MWMtYmUwMi00YWM5LTllMGItNzZlMmU1NWM2NTY5XkEyXkFqcGc@._V1_SX300.jpg",
+    "imdbId": "tt30505698",
+    "plot": "A suburban dad falls hard for his charismatic new neighbor.",
+    "director": "Andrew DeYoung",
+    "runtime": "100 min",
+    "genre": "Comedy"
+  },
+  {
+    "title": "The Surfer",
+    "year": "2024",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMmNjNTZiNTEtMWQ1NC00YmQ4LWFhYjktMzZhOGM2MDhmMTAxXkEyXkFqcGc@._V1_SX300.jpg",
+    "imdbId": "tt27813235",
+    "plot": "A man returns to the idyllic beach of his childhood to surf with his son. When he is humiliated by a group of locals, the man is drawn into a conflict that keeps rising and pushes him to his breaking point.",
+    "director": "Lorcan Finnegan",
+    "runtime": "100 min",
+    "genre": "Thriller"
+  },
+  {
+    "title": "Sinners",
+    "year": "2025",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNjIwZWY4ZDEtMmIxZS00NDA4LTg4ZGMtMzUwZTYyNzgxMzk5XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+    "imdbId": "tt31193180",
+    "plot": "Trying to leave their troubled lives behind, twin brothers return to their hometown to start again, only to discover that an even greater evil is waiting to welcome them back.",
+    "director": "Ryan Coogler",
+    "runtime": "137 min",
+    "genre": "Action, Drama, Horror"
+  },
+  {
+    "title": "Sacramento",
+    "year": "2024",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMGIzYWM0YmUtZjFkZS00N2MwLWEyMDUtZGU5NTgwOTFiZGJhXkEyXkFqcGc@._V1_SX300.jpg",
+    "imdbId": "tt13491834",
+    "plot": "An energetic and free-spirited young man convinces his long-time friend, who's settled into domestic life, to go on an impromptu road trip from Los Angeles to Sacramento.",
+    "director": "Michael Angarano",
+    "runtime": "89 min",
+    "genre": "Comedy"
+  },
+  {
+    "title": "Freaky Tales",
+    "year": "2024",
+    "poster": "https://m.media-amazon.com/images/M/MV5BOTYyNmYyN2EtYTFjNS00ZWY5LWJiZmMtNTk5N2MyYzkzMDhmXkEyXkFqcGc@._V1_SX300.jpg",
+    "imdbId": "tt21942598",
+    "plot": "Four interconnected stories set in 1987 Oakland, CA. will tell about the love of music, movies, people, places and memories beyond our knowable universe.",
+    "director": "Anna Boden, Ryan Fleck",
+    "runtime": "107 min",
+    "genre": "Action, Adventure, Comedy"
+  },
+  {
+    "title": "Novocaine",
+    "year": "2025",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMWU4MmUxODktMWUwYy00YzM0LTg1ZmItNzVlMTZhOWVlNWFjXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+    "imdbId": "tt29603959",
+    "plot": "When the girl of his dreams is kidnapped, a man incapable of feeling physical pain turns his rare condition into an unexpected advantage in the fight to rescue her.",
+    "director": "Dan Berk, Robert Olsen",
+    "runtime": "110 min",
+    "genre": "Action, Comedy, Crime"
+  },
+  {
+    "title": "Black Bag",
+    "year": "2025",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNzA1OWU4NDMtMDUxMC00NWI4LWJhYjUtYWQ0OGQ5MTc2NDRjXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+    "imdbId": "tt30988739",
+    "plot": "When intelligence agent Kathryn Woodhouse is suspected of betraying the nation, her husband - also a legendary agent - faces the ultimate test of whether to be loyal to his marriage, or his country.",
+    "director": "Steven Soderbergh",
+    "runtime": "93 min",
+    "genre": "Drama, Mystery, Romance"
+  },
+  {
+    "title": "Mickey 17",
+    "year": "2025",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZGQwYmEzMzktYzBmMy00NmVmLTkyYTUtOTYyZjliZDNhZGVkXkEyXkFqcGc@._V1_SX300.jpg",
+    "imdbId": "tt12299608",
+    "plot": "During a human expedition to colonize space, Mickey 17, a so-called \"expendable\" employee, is sent to explore an ice planet.",
+    "director": "Bong Joon Ho",
+    "runtime": "137 min",
+    "genre": "Adventure, Comedy, Fantasy"
+  },
+  {
+    "title": "Anora",
+    "year": "2024",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYThiN2M0NTItODRmNC00NDhlLWFiYTgtMWM2YTEyYzI3ZTY1XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+    "imdbId": "tt28607951",
+    "plot": "A young stripper from Brooklyn meets and impulsively marries the son of a Russian oligarch. Once the news reaches Russia, her fairy tale is threatened as his parents set out for New York to get the marriage annulled.",
+    "director": "Sean Baker",
+    "runtime": "139 min",
+    "genre": "Comedy, Drama, Romance"
+  },
+  {
+    "title": "Companion",
+    "year": "2025",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYjkyZTA5NzAtYWU3Zi00MWM4LTgxNzAtNDQxY2JmNjMwYjk4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+    "imdbId": "tt26584495",
+    "plot": "A weekend getaway with friends at a remote cabin turns into chaos after it's revealed that one of the guests is not what they seem.",
+    "director": "Drew Hancock",
+    "runtime": "97 min",
+    "genre": "Sci-Fi, Thriller"
+  },
+  {
+    "title": "The Brutalist",
+    "year": "2024",
+    "poster": "https://m.media-amazon.com/images/M/MV5BM2U0MWRjZTMtMDVhNC00MzY4LTgwOTktZGQ2MDdiYTI4OWMxXkEyXkFqcGc@._V1_SX300.jpg",
+    "imdbId": "tt8999762",
+    "plot": "A visionary architect flees post-war Europe in 1947 for a brighter future in the United States and finds his life forever changed by a wealthy client.",
+    "director": "Brady Corbet",
+    "runtime": "216 min",
+    "genre": "Drama"
+  }
+]
