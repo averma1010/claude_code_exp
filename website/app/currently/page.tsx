@@ -1,5 +1,6 @@
 import articlesCache from '@/content/data/articles-cache.json';
 import moviesCache from '@/content/data/movies-cache.json';
+import spotifyCache from '@/content/data/spotify-cache.json';
 
 interface ArticleData {
   title: string;
@@ -20,9 +21,21 @@ interface MovieData {
   genre: string;
 }
 
+interface SpotifyTrack {
+  title: string;
+  artist: string;
+  album: string;
+  albumImage: string | null;
+  songUrl: string;
+}
+
 export default function CurrentlyPage() {
   const articles = articlesCache as ArticleData[];
   const movies = moviesCache as MovieData[];
+  const topTracks = spotifyCache as SpotifyTrack[];
+
+  const leftTracks = topTracks.slice(0, 3);
+  const rightTracks = topTracks.slice(3, 5);
 
   return (
     <div className="py-8">
@@ -81,7 +94,7 @@ export default function CurrentlyPage() {
         <h2 className="text-2xl font-bold mb-6 pb-2 border-b border-ft-border">
           Watched
         </h2>
-        <div className="max-h-[400px] overflow-y-auto pr-2">
+        <div className="max-h-[640px] overflow-y-auto pr-2">
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
             {movies.map((movie) => (
               <div key={movie.imdbId} className="group cursor-pointer">
@@ -120,6 +133,66 @@ export default function CurrentlyPage() {
           </div>
         </div>
       </section>
+
+      {/* Spotify Section */}
+      {topTracks.length > 0 && (
+        <section className="mb-16">
+          <h2 className="text-2xl font-bold mb-6 pb-2 border-b border-ft-border">
+            Listening
+          </h2>
+          <p className="text-xs uppercase tracking-widest text-ft-text/50 mb-3">Top Tracks</p>
+          <div className="grid grid-cols-2 gap-x-8">
+            <div className="flex flex-col gap-3">
+              {leftTracks.map((track, i) => (
+                <a
+                  key={i}
+                  href={track.songUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-4 group"
+                >
+                  <span className="text-sm text-ft-text/40 w-4">{i + 1}</span>
+                  {track.albumImage && (
+                    <img
+                      src={track.albumImage}
+                      alt={track.album}
+                      className="w-10 h-10 rounded object-cover"
+                    />
+                  )}
+                  <div>
+                    <p className="text-sm font-medium group-hover:text-blue-400 transition-colors">{track.title}</p>
+                    <p className="text-xs text-ft-text/60">{track.artist}</p>
+                  </div>
+                </a>
+              ))}
+            </div>
+            <div className="flex flex-col gap-3">
+              {rightTracks.map((track, i) => (
+                <a
+                  key={i + 3}
+                  href={track.songUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-4 group"
+                >
+                  <span className="text-sm text-ft-text/40 w-4">{i + 4}</span>
+                  {track.albumImage && (
+                    <img
+                      src={track.albumImage}
+                      alt={track.album}
+                      className="w-10 h-10 rounded object-cover"
+                    />
+                  )}
+                  <div>
+                    <p className="text-sm font-medium group-hover:text-blue-400 transition-colors">{track.title}</p>
+                    <p className="text-xs text-ft-text/60">{track.artist}</p>
+                  </div>
+                </a>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
     </div>
   );
 }

@@ -71,6 +71,34 @@ async function fetchMovieData(imdbId) {
   }
 }
 
+async function fetchSpotifyTopTracks() {
+  const clientId = process.env.SPOTIFY_CLIENT_ID;
+  const clientSecret = process.env.SPOTIFY_CLIENT_SECRET;
+  const refreshToken = process.env.SPOTIFY_REFRESH_TOKEN;
+  if (!clientId || !clientSecret || !refreshToken) {
+    console.warn('  Spotify env vars not set, skipping.');
+    return [];
+  }
+  const basic = Buffer.from(`${clientId}:${clientSecret}`).toString('base64');
+  const tokenRes = await fetch('https://accounts.spotify.com/api/token', {
+    method: 'POST',
+    headers: { Authorization: `Basic ${basic}`, 'Content-Type': 'application/x-www-form-urlencoded' },
+    body: new URLSearchParams({ grant_type: 'refresh_token', refresh_token: refreshToken }),
+  });
+  const { access_token } = await tokenRes.json();
+  const res = await fetch('https://api.spotify.com/v1/me/top/tracks?limit=5&time_range=short_term', {
+    headers: { Authorization: `Bearer ${access_token}` },
+  });
+  const data = await res.json();
+  return (data.items ?? []).map(track => ({
+    title: track.name,
+    artist: track.artists.map(a => a.name).join(', '),
+    album: track.album.name,
+    albumImage: track.album.images[0]?.url ?? null,
+    songUrl: track.external_urls.spotify,
+  }));
+}
+
 console.log(`Fetching ${readingUrls.length} articles...`);
 const articles = [];
 for (const url of readingUrls) {
@@ -89,3 +117,8 @@ for (const id of watchingIds) {
 }
 writeFileSync(join(root, 'content/data/movies-cache.json'), JSON.stringify(movies, null, 2));
 console.log('Wrote content/data/movies-cache.json');
+
+console.log('\nFetching Spotify top tracks...');
+const spotifyTracks = await fetchSpotifyTopTracks();
+writeFileSync(join(root, 'content/data/spotify-cache.json'), JSON.stringify(spotifyTracks, null, 2));
+console.log('Wrote content/data/spotify-cache.json');
