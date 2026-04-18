@@ -7,14 +7,6 @@ const nextConfig = {
   experimental: {
     mdxRs: false,
   },
-  images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'res.cloudinary.com',
-      },
-    ],
-  },
 }
 
 const withMDX = createMDX({

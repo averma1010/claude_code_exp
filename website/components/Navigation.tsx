@@ -28,14 +28,6 @@ export default function Navigation() {
               Thoughts
             </Link>
             <Link
-              href="/gallery"
-              className={`text-lg no-underline hover:text-ft-accent transition-colors ${
-                isActive('/gallery') ? 'text-ft-accent font-semibold' : 'text-ft-text'
-              }`}
-            >
-              Gallery
-            </Link>
-            <Link
               href="/currently"
               className={`text-lg no-underline hover:text-ft-accent transition-colors ${
                 isActive('/currently') ? 'text-ft-accent font-semibold' : 'text-ft-text'
